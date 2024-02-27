@@ -247,7 +247,7 @@
             // textBox8
             // 
             textBox8.Font = new Font("Mongolian Baiti", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox8.Location = new Point(210, 473);
+            textBox8.Location = new Point(210, 464);
             textBox8.Margin = new Padding(3, 4, 3, 4);
             textBox8.Name = "textBox8";
             textBox8.Size = new Size(236, 29);
@@ -265,7 +265,7 @@
             // textBox13
             // 
             textBox13.Font = new Font("Mongolian Baiti", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox13.Location = new Point(873, 117);
+            textBox13.Location = new Point(875, 118);
             textBox13.Margin = new Padding(3, 4, 3, 4);
             textBox13.Name = "textBox13";
             textBox13.Size = new Size(233, 29);
@@ -276,7 +276,7 @@
             comboBox1.Font = new Font("Mongolian Baiti", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
             comboBox1.FormattingEnabled = true;
             comboBox1.Items.AddRange(new object[] { "Ativa", "Nula", "Suspensa", "Inapta", "Baixada" });
-            comboBox1.Location = new Point(873, 257);
+            comboBox1.Location = new Point(873, 265);
             comboBox1.Margin = new Padding(3, 4, 3, 4);
             comboBox1.Name = "comboBox1";
             comboBox1.Size = new Size(236, 28);
@@ -287,7 +287,7 @@
             comboBox2.Font = new Font("Mongolian Baiti", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
             comboBox2.FormattingEnabled = true;
             comboBox2.Items.AddRange(new object[] { "EI- Empresário Individual", "MEI- Microempreendedor Individual", "Socicedade Anônima" });
-            comboBox2.Location = new Point(873, 343);
+            comboBox2.Location = new Point(873, 340);
             comboBox2.Margin = new Padding(3, 4, 3, 4);
             comboBox2.Name = "comboBox2";
             comboBox2.Size = new Size(236, 28);
@@ -330,10 +330,10 @@
             comboBox3.Font = new Font("Mongolian Baiti", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
             comboBox3.FormattingEnabled = true;
             comboBox3.Items.AddRange(new object[] { "Acre (AC)", "Alagoas (AL)", "Amapá (AP)", "Amazonas (AM)", "Bahia (BA)", "Ceará (CE)", "Distrito Federal (DF)", "Espírito Santo (ES)", "Goiás (GO)", "Maranhão (MA)", "Mato Grosso (MT)", "Mato Grosso do Sul (MS)", "Minas Gerais (MG)", "Pará (PA)", "Paraíba (PB)", "Paraná (PR)", "Pernambuco (PE)", "Piauí (PI)", "Rio de Janeiro (RJ)", "Rio Grande do Norte (RN)", "Rio Grande do Sul (RS)", "Rondônia (RO)", "Roraima (RR)", "Santa Catarina (SC)", "São Paulo (SP)", "Sergipe (SE)", "Tocantins (TO)" });
-            comboBox3.Location = new Point(562, 561);
+            comboBox3.Location = new Point(566, 568);
             comboBox3.Margin = new Padding(3, 4, 3, 4);
             comboBox3.Name = "comboBox3";
-            comboBox3.Size = new Size(163, 28);
+            comboBox3.Size = new Size(187, 28);
             comboBox3.TabIndex = 39;
             // 
             // label16
@@ -348,11 +348,11 @@
             // 
             // button1
             // 
-            button1.Font = new Font("Mongolian Baiti", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
-            button1.Location = new Point(859, 523);
+            button1.Font = new Font("Mongolian Baiti", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            button1.Location = new Point(894, 490);
             button1.Margin = new Padding(3, 4, 3, 4);
             button1.Name = "button1";
-            button1.Size = new Size(134, 31);
+            button1.Size = new Size(134, 36);
             button1.TabIndex = 46;
             button1.Text = "Cadastrar";
             button1.UseVisualStyleBackColor = true;
@@ -360,11 +360,11 @@
             // 
             // button2
             // 
-            button2.Font = new Font("Mongolian Baiti", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
-            button2.Location = new Point(859, 593);
+            button2.Font = new Font("Mongolian Baiti", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            button2.Location = new Point(894, 548);
             button2.Margin = new Padding(3, 4, 3, 4);
             button2.Name = "button2";
-            button2.Size = new Size(134, 36);
+            button2.Size = new Size(134, 42);
             button2.TabIndex = 47;
             button2.Text = "Cancelar";
             button2.UseVisualStyleBackColor = true;
@@ -372,11 +372,11 @@
             // 
             // maskedTextBox4
             // 
-            maskedTextBox4.Location = new Point(873, 199);
+            maskedTextBox4.Location = new Point(883, 198);
             maskedTextBox4.Margin = new Padding(3, 4, 3, 4);
             maskedTextBox4.Mask = "000,000,000-00";
             maskedTextBox4.Name = "maskedTextBox4";
-            maskedTextBox4.Size = new Size(233, 27);
+            maskedTextBox4.Size = new Size(89, 27);
             maskedTextBox4.TabIndex = 51;
             // 
             // groupBoxOpcoes
@@ -389,7 +389,6 @@
             groupBoxOpcoes.Size = new Size(518, 91);
             groupBoxOpcoes.TabIndex = 58;
             groupBoxOpcoes.TabStop = false;
-            groupBoxOpcoes.Text = "groupBox1";
             // 
             // radioButton11
             // 
@@ -439,7 +438,6 @@
             groupBoxOpcoes2.Size = new Size(217, 102);
             groupBoxOpcoes2.TabIndex = 59;
             groupBoxOpcoes2.TabStop = false;
-            groupBoxOpcoes2.Text = "groupBox1";
             // 
             // radioButton3
             // 
@@ -477,7 +475,6 @@
             groupBoxOpcoes3.Size = new Size(445, 125);
             groupBoxOpcoes3.TabIndex = 60;
             groupBoxOpcoes3.TabStop = false;
-            groupBoxOpcoes3.Text = "groupBox2";
             groupBoxOpcoes3.Enter += groupBox2_Enter;
             // 
             // radioButton1

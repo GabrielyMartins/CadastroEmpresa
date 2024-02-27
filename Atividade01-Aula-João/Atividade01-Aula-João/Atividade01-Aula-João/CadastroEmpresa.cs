@@ -36,7 +36,7 @@ namespace Atividade01_Aula_João
 
         private void button2_Click(object sender, EventArgs e)
         {
-
+            this.Close();
         }
 
         private void label12_Click(object sender, EventArgs e)
@@ -54,7 +54,7 @@ namespace Atividade01_Aula_João
             if (String.IsNullOrEmpty(textBox1.Text) || String.IsNullOrEmpty(textBox13.Text) || String.IsNullOrEmpty(textBox2.Text) ||
                 String.IsNullOrEmpty(maskedTextBox1.Text) || String.IsNullOrEmpty(comboBox1.Text) || String.IsNullOrEmpty(maskedTextBox4.Text) ||
                 String.IsNullOrEmpty(maskedTextBox3.Text) || String.IsNullOrEmpty(textBox8.Text) || String.IsNullOrEmpty(textBox9.Text) ||
-                String.IsNullOrEmpty(comboBox3.Text) || String.IsNullOrEmpty(comboBox2.Text) || String.IsNullOrEmpty(maskedTextBox2.Text) || 
+                String.IsNullOrEmpty(comboBox3.Text) || String.IsNullOrEmpty(comboBox2.Text) || String.IsNullOrEmpty(maskedTextBox2.Text) ||
                 String.IsNullOrEmpty(groupBoxOpcoes.Text) || String.IsNullOrEmpty(groupBoxOpcoes2.Text) || String.IsNullOrEmpty(groupBoxOpcoes3.Text))
             {
                 MessageBox.Show("Por favor, preencha todos os campos!", "Atenção", MessageBoxButtons.OK, MessageBoxIcon.Warning);
@@ -88,20 +88,20 @@ namespace Atividade01_Aula_João
                 MessageBox.Show("Funcionário cadastrado com sucesso!", "Cadastro efetuado", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
 
-                MessageBox.Show($"Nome Fatasia: {novoFuncionario.nomeFantasia}\n" + 
-                    $"Nome propreteratio: {novoFuncionario.nomeProprietario}\n" + 
-                    $"CNPJ: {novoFuncionario.cpfProprietario}\n" + 
-                    $"Cpf do propretério: {novoFuncionario.cpfProprietario}\n" + 
-                    $"Razão Social: {novoFuncionario.razaoSocial}\n" + 
-                    $"Situação cadastral: {novoFuncionario.situacaoCadastral}\n" + 
-                    $"Endereço: {novoFuncionario.endereco}\n" + 
-                    $"Data de iníco: {novoFuncionario.data}\n" + 
-                    $"Telefone: {novoFuncionario.telefone}\n" + 
-                    $"Capital social: {novoFuncionario.capitalSocial}\n" + 
-                    $"Tipo: {opSelecionada}\n" + 
-                    $"Porte da Empresa: {opcSelecionada}\n" + 
-                    $"Natureza juridica: {novoFuncionario.naturezaJuridica}\n" + 
-                    $"Regime Tributário: {opcaoSelecionada}", 
+                MessageBox.Show($"Nome Fatasia: {novoFuncionario.nomeFantasia}\n" +
+                    $"Nome propreteratio: {novoFuncionario.nomeProprietario}\n" +
+                    $"CNPJ: {novoFuncionario.cpfProprietario}\n" +
+                    $"Cpf do propretério: {novoFuncionario.cpfProprietario}\n" +
+                    $"Razão Social: {novoFuncionario.razaoSocial}\n" +
+                    $"Situação cadastral: {novoFuncionario.situacaoCadastral}\n" +
+                    $"Endereço: {novoFuncionario.endereco}\n" +
+                    $"Data de iníco: {novoFuncionario.data}\n" +
+                    $"Telefone: {novoFuncionario.telefone}\n" +
+                    $"Capital social: {novoFuncionario.capitalSocial}\n" +
+                    $"Tipo: {opSelecionada}\n" +
+                    $"Porte da Empresa: {opcSelecionada}\n" +
+                    $"Natureza juridica: {novoFuncionario.naturezaJuridica}\n" +
+                    $"Regime Tributário: {opcaoSelecionada}",
                     $"Cadastro Efetuado", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
             }
@@ -168,6 +168,10 @@ namespace Atividade01_Aula_João
         private void groupBox2_Enter(object sender, EventArgs e)
         {
 
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
         }
     }
 }
